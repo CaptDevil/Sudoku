@@ -1,0 +1,115 @@
+body{
+    background-image: url("../images/947218.jpg");
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    margin: 50px auto;
+    border: 0.5px black solid;
+    background-color: rgb(113, 211, 198);
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+tbody{    
+    height: 540px;
+    width: 540px;
+    padding: 0;
+    margin: 0;
+}
+td{
+    border: 1px dashed black;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+}
+#r0-c0, #r0-c1, #r0-c2, #r1-c0, #r1-c1, #r1-c2, #r2-c0, #r2-c1, #r2-c2{
+    border: 1px solid red;
+}
+
+#r0-c6, #r0-c7, #r0-c8, #r1-c6, #r1-c7, #r1-c8, #r2-c6, #r2-c7, #r2-c8{
+    border: 1px solid red;
+}
+
+#r6-c0, #r6-c1, #r6-c2, #r7-c0, #r7-c1, #r7-c2, #r8-c0, #r8-c1, #r8-c2{
+    border: 1px solid red;
+}
+
+#r6-c6, #r6-c7, #r6-c8, #r7-c6, #r7-c7, #r7-c8, #r8-c6, #r8-c7, #r8-c8{
+    border: 1px solid red;
+}
+
+#r3-c3, #r3-c4, #r3-c5, #r4-c3, #r4-c4, #r4-c5, #r5-c3, #r5-c4, #r5-c5{
+    border: 1px solid red;
+}
+p{
+    margin: auto;
+    width: 30%;
+}
+#correction{
+    margin: 0;
+}
+input{
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(113, 211, 198);
+}
+
+h2{
+    text-align: center;
+    color: darkgrey;
+    margin: 0;
+    font-style: italic;
+}
+
+header{
+    background-color: skyblue;
+    font-size: 70px;
+    margin: auto;
+    padding: 0;
+}
+span{
+    font-style: normal;
+    font-size: 68px;
+    font-family: sans-serif;
+    color: yellowgreen;
+}
+
+input[type=submit]{
+    margin: 0px auto;
+    margin-bottom: 5px;
+    display: block;
+    width: 30%;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: gray;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: rgb(131, 114, 114);
+    margin: 0;
+    font-style: italic;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+a:hover{
+    color: rgb(192, 165, 165);
+}
