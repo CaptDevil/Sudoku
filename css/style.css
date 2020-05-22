@@ -43,23 +43,47 @@ td{
     border: 1px solid red;
 }
 p{
-    margin: auto;
-    width: 30%;
+    /*margin: auto;
+    width: 30%;*/
 }
 #correction{
     margin: 0;
+    text-align: center;
 }
-input{
+select{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    font-size: 16px;
+    text-align: center;
+    text-align-last: center;
+    background-color: rgba(109, 167, 159, 0);
+}
+select:hover{
+    background-color: rgba(109, 167, 159, 0.37);
+}
+select:active{
+    background-color: rgba(109, 167, 159, 0.37);
+}
+option{
+    background-color: linen;
+    color: rgb(104, 96, 96);
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    padding: 2px;
+}
+
+input[type=submit]{
     height: 50px;
     width: 50px;
     margin: 0;
     border: 0;
     font-size: 16px;
     text-align: center;
-    background-color: rgba(109, 167, 159, 0);
-}
-
-input[type=submit]{
     background-color: rgb(109, 167, 159);
 }
 

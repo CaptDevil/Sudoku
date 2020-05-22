@@ -94,10 +94,12 @@ let doc = [
 
 for(let i=0;i<9;i++){
     for(let j=0;j<9;j++){
-        if(puzzle[i][j]==0)
-            doc[i][j].innerHTML = `<p id="correction"><input type="number" id="sr${i}-sc${j}"></p>`;
+        if(puzzle[i][j]==0){
+            doc[i][j].innerHTML = `<p id="correction"><select id="sr${i}-sc${j}"><option value="0" hidden></option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></p>`;
+            doc[i][j].style = 'background-color: rgb(109, 167, 159);';
+        }
         else
-            doc[i][j].innerHTML = `<p>${puzzle[i][j]}</p>`;
+            doc[i][j].innerHTML = `<p><strong>${puzzle[i][j]}</strong></p>`;
     }
 }
 
