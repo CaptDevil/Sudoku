@@ -318,27 +318,27 @@ let hours = today.getHours();
 }
  */
 
-if((day==1 && (hours>=0 && hours<4)) || (day==2 && (hours>=8 && hours<12)) || (day==3 && (hours>=16 && hours<20)) || (day==4 && (hours>=4 && hours<8)) || (day==5 && (hours>=12 && hours<16)) || (day==6 && (hours>=20 && hours<24))){
+if((day==0 && (hours>=0 && hours<4)) || (day==1 && (hours>=0 && hours<4)) || (day==2 && (hours>=8 && hours<12)) || (day==3 && (hours>=16 && hours<20)) || (day==4 && (hours>=4 && hours<8)) || (day==5 && (hours>=12 && hours<16)) || (day==6 && (hours>=20 && hours<24))){
     p = puz[0].q;
     s = puz[0].a;
 }
-else if((day==1 && (hours>=8 && hours<12)) || (day==2 && (hours>=16 && hours<20)) || (day==3 && (hours>=0 && hours<4)) || (day==4 && (hours>=12 && hours<16)) || (day==5 && (hours>=20 && hours<24)) || (day==6 && (hours>=4 && hours<8))){
+else if((day==0 && (hours>=4 && hours<8)) || (day==1 && (hours>=8 && hours<12)) || (day==2 && (hours>=16 && hours<20)) || (day==3 && (hours>=0 && hours<4)) || (day==4 && (hours>=12 && hours<16)) || (day==5 && (hours>=20 && hours<24)) || (day==6 && (hours>=4 && hours<8))){
     p = puz[1].q;
     s = puz[1].a;
 }
-else if((day==1 && (hours>=16 && hours<20)) || (day==2 && (hours>=0 && hours<4)) || (day==3 && (hours>=8 && hours<12)) || (day==4 && (hours>=20 && hours<24)) || (day==5 && (hours>=4 && hours<8)) || (day==6 && (hours>=12 && hours<16))){
+else if((day==0 && (hours>=8 && hours<12)) || (day==1 && (hours>=16 && hours<20)) || (day==2 && (hours>=0 && hours<4)) || (day==3 && (hours>=8 && hours<12)) || (day==4 && (hours>=20 && hours<24)) || (day==5 && (hours>=4 && hours<8)) || (day==6 && (hours>=12 && hours<16))){
     p = puz[2].q;
     s = puz[2].a;
 }
-else if((day==1 && (hours>=20 && hours<24)) || (day==2 && (hours>=4 && hours<8)) || (day==3 && (hours>=12 && hours<16)) || (day==4 && (hours>=0 && hours<4)) || (day==5 && (hours>=8 && hours<12)) || (day==6 && (hours>=16 && hours<20))){
+else if((day==0 && (hours>=12 && hours<16)) || (day==1 && (hours>=20 && hours<24)) || (day==2 && (hours>=4 && hours<8)) || (day==3 && (hours>=12 && hours<16)) || (day==4 && (hours>=0 && hours<4)) || (day==5 && (hours>=8 && hours<12)) || (day==6 && (hours>=16 && hours<20))){
     p = puz[3].q;
     s = puz[3].a;
 }
-else if((day==1 && (hours>=4 && hours<8)) || (day==2 && (hours>=12 && hours<16)) || (day==3 && (hours>=20 && hours<24)) || (day==4 && (hours>=8 && hours<12)) || (day==5 && (hours>=16 && hours<20)) || (day==6 && (hours>=0 && hours<4))){
+else if((day==0 && (hours>=16 && hours<20)) || (day==1 && (hours>=4 && hours<8)) || (day==2 && (hours>=12 && hours<16)) || (day==3 && (hours>=20 && hours<24)) || (day==4 && (hours>=8 && hours<12)) || (day==5 && (hours>=16 && hours<20)) || (day==6 && (hours>=0 && hours<4))){
     p = puz[4].q;
     s = puz[4].a;
 }
-else if((day==1 && (hours>=12 && hours<16)) || (day==2 && (hours>=20 && hours<24)) || (day==3 && (hours>=4 && hours<8)) || (day==4 && (hours>=16 && hours<20)) || (day==5 && (hours>=0 && hours<4)) || (day==6 && (hours>=8 && hours<12))){
+else if((day==0 && (hours>=20 && hours<24)) || (day==1 && (hours>=12 && hours<16)) || (day==2 && (hours>=20 && hours<24)) || (day==3 && (hours>=4 && hours<8)) || (day==4 && (hours>=16 && hours<20)) || (day==5 && (hours>=0 && hours<4)) || (day==6 && (hours>=8 && hours<12))){
     p = puz[5].q;
     s = puz[5].a;
 }
